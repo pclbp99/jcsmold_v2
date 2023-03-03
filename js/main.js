@@ -9,7 +9,7 @@ $(function(){
     /* mobile menu */
     $('.menu_r').click(function(){
         $('.menu_bg').fadeIn();
-        $('.menu_con').animate({right:0});
+        $('.menu_con').css('margin-right','0');
         $('.menu_con').css({
             "top":(($(window).height() - $(".menu_con").outerHeight())/2 + $(window).scrollTop()) + "px"
         });
@@ -19,7 +19,7 @@ $(function(){
 
     $('.menu_bg').click(function(){
         $('.menu_bg').fadeOut();
-        $('.menu_con').animate({right:'-60%'});
+        $('.menu_con').css('margin-right','-60%');
         $("body").css("overflow", "auto");
         $("html").css("overflow", "auto");
     });
@@ -29,7 +29,7 @@ $(function(){
         var offset = $('#company').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
         $('.menu_bg').fadeOut();
-        $('.menu_con').animate({right:'-60%'});
+        $('.menu_con').css('margin-right','-60%');
         $("body").css("overflow", "auto");
         $("html").css("overflow", "auto");
         
@@ -38,7 +38,7 @@ $(function(){
         var offset = $('#ceo').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
         $('.menu_bg').fadeOut();
-        $('.menu_con').animate({right:'-60%'});
+        $('.menu_con').css('margin-right','-60%');
         $("body").css("overflow", "auto");
         $("html").css("overflow", "auto");
     });
@@ -46,7 +46,7 @@ $(function(){
         var offset = $('#history').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
         $('.menu_bg').fadeOut();
-        $('.menu_con').animate({right:'-60%'});
+        $('.menu_con').css('margin-right','-60%');
         $("body").css("overflow", "auto");
         $("html").css("overflow", "auto");
     });
@@ -54,7 +54,7 @@ $(function(){
         var offset = $('#factory').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
         $('.menu_bg').fadeOut();
-        $('.menu_con').animate({right:'-60%'});
+        $('.menu_con').css('margin-right','-60%');
         $("body").css("overflow", "auto");
         $("html").css("overflow", "auto");
     });
@@ -62,7 +62,7 @@ $(function(){
         var offset = $('#vision').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
         $('.menu_bg').fadeOut();
-        $('.menu_con').animate({right:'-60%'});
+        $('.menu_con').css('margin-right','-60%');
         $("body").css("overflow", "auto");
         $("html").css("overflow", "auto");
     });
@@ -70,7 +70,7 @@ $(function(){
         var offset = $('#contact').offset()
         $('html').animate({scrollTop : offset.top - 80}, 200);
         $('.menu_bg').fadeOut();
-        $('.menu_con').animate({right:'-60%'});
+        $('.menu_con').css('margin-right','-60%');
         $("body").css("overflow", "auto");
         $("html").css("overflow", "auto");
     });
@@ -114,7 +114,7 @@ $(function(){
         $(".btnClose").click(function(){
             $(".modal_bg").css("display","none");
             $('.menu_bg').fadeOut();
-            $('.menu_con').animate({right:'-60%'});
+            $('.menu_con').css('margin-right','-60%')
             $("#" + prd + "_view").css("display","none");
             $("body").css("overflow", "auto");
             $("html").css("overflow", "auto");
