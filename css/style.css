@@ -117,8 +117,8 @@ border: 1px solid #558ab7 !important;
 .lang a{color: #fff; margin-right: 30px;}
 .m_menu_con .menu_bg{width: 100%; height: 100vh; background: rgba(0,0,0,0.5); z-index: 999999;
     position: fixed; top:0; left: 0; cursor: pointer; display: none;}
-.m_menu_con .menu_con{width: 60%; height: 100vh; position: absolute; top:0; right: 0; background:#fff;
-z-index: 9999999; padding: 20px 16px; margin-right:-60%; transition:all ease-in-out 0.5s}
+.m_menu_con .menu_con{width: 60%; height: 100vh; position: fixed; top:0; right: -60%; background:#fff;
+z-index: 9999999; padding: 20px 16px;}
 .m_menu_con .menu_con ul{margin-top: 30px;}
 .m_menu_con .menu_con ul li{padding: 20px 16px; border-bottom: 1px solid #e5e5e5; font-family: 'SBAggro'; 
     font-weight: 500; letter-spacing: 0;}
