@@ -17,7 +17,7 @@ $(function(){
         $("html").css("overflow", "hidden");
     });
 
-    $('.menu_bg').click(function(){
+    $('.m_menu').click(function(){
         $('.menu_bg').fadeOut();
         $('.menu_con').animate({right:'-60%'});
         $("body").css("overflow", "auto");
