@@ -7,7 +7,7 @@ $(function(){
     });
 
     /* mobile menu */
-    $('.menu_r').click(function(){
+    $('.m_menu').click(function(){
         $('.menu_bg').fadeIn();
         $('.menu_con').animate({right:0});
         /*$('.menu_con').css({
@@ -17,7 +17,7 @@ $(function(){
         $("html").css("overflow", "hidden");
     });
 
-    $('.m_menu').click(function(){
+    $('.menu_bg').click(function(){
         $('.menu_bg').fadeOut();
         $('.menu_con').animate({right:'-60%'});
         $("body").css("overflow", "auto");
